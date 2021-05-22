@@ -45,7 +45,7 @@ output= output + '\n!a && !c = ' + (!a && !c);
 output= output + '\n!a || !c = ' + (!a || !c);
 
          
-console.log(output);//output
+alert(output);//output
 
 
 
@@ -54,10 +54,10 @@ let first_name = 'Samiksha'; //Output Samiksha
 
 let last_name = 'Ojha';//Output Ojha
 
-// Array
 let email = [
     'ojha0002@algonquinlive.com', 
 ];//Output ojha0002@algonquinlive.com
 
+
 //"My name is Your-first-name Your-last-name. You can contact me at your-email@mail.com."
-console.log(`My name is ${first_name} ${last_name}.  You can contact me at ${email}`);
+alert(`My name is ${first_name} ${last_name}.  You can contact me at ${email}`);
